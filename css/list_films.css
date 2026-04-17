@@ -1,0 +1,107 @@
+body.home-page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../uploads/Zero-One.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
+
+.film-card {
+    background-color: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.film-card .card-body p {
+    background: rgba(233, 225, 225, 0.745); 
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.film-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+body.add-film-page {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    min-height: 100vh;
+}
+
+.text-sp {
+    color: #f0f731;
+    font-weight: 600;
+    margin-bottom: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.overlay-bg {
+    background-color: rgba(0, 0, 0, 0.85);
+    min-height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.film-info-card {
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.review-box {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid #ffc107;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: #ddd;
+}
+
+.review-box .reviewer-name {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.star-rating {
+    color: #ffc107; 
+    font-size: 1.2rem;
+}
+
+.text {
+  color: #53f6f6;
+  font-weight: 600;
+
+  text-shadow: 
+    0 0 5px #00ffff,
+    0 0 10px #00ffff,
+    0 0 20px #00ffff;
+
+  letter-spacing: 1px;
+}
+
+.netflix-bg {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+    padding-top: 20px;
+    }
+
+.overlay-bg-custom {
+    min-height: 100vh;
+    padding-bottom: 50px;
+}

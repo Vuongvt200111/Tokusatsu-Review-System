@@ -1,0 +1,52 @@
+.edit-review-wrapper {
+    background-image: url('../uploads/the next.png');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    background-color: #1a1a1a;
+    min-height: 100vh; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+}
+
+.edit-review-card {
+    background-color: rgba(33, 37, 41, 0.9) !important; 
+}
+
+.edit-review-title {
+    color: #ffc107;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #ffc107;
+    padding-bottom: 0.5rem;
+}
+
+.edit-review-card {
+    background-color: #212529;
+    color: #fff;
+    border: 1px solid #6c757d;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    border-radius: 0.5rem;
+}
+
+.edit-review-card-body {
+    padding: 1.5rem;
+}
+
+.edit-review-label {
+    color: #0dcaf0;
+    font-weight: bold;
+}
+
+.edit-review-input {
+    background-color: #6c757d; 
+    color: #fff;
+    border: none;
+}
+
+.edit-review-input:focus {
+    background-color: #5c636a;
+    color: #fff;
+    box-shadow: 0 0 0 0.25rem rgba(13, 202, 240, 0.25);
+}

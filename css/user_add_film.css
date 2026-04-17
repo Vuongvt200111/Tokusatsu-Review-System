@@ -1,0 +1,51 @@
+.add-film-wrapper {
+    min-height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../uploads/ur.png');
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.add-film-card {
+    background-color: rgba(33, 37, 41, 0.85);
+    border: 1px solid #ffc107;
+    border-radius: 0.5rem;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.add-film-header {
+    background-color: #ffc107;
+    color: #212529;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.add-film-label {
+    color: #0dcaf0;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.add-film-input {
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+.add-film-input:focus {
+    background-color: #5c636a;
+    color: #fff;
+    box-shadow: 0 0 0 0.25rem rgba(13, 202, 240, 0.25);
+}
+
+.add-film-input option {
+    background-color: #343a40;
+}

@@ -1,0 +1,61 @@
+.contact-admin-wrapper {
+    min-height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../uploads/contact_us.png');
+    background-size: cover;
+}
+
+.contact-card {
+    background-color: #0f172aa5;
+    color: #f8f9fa16;
+    border: 1px solid #ffc107;
+    border-radius: 0.5rem;
+    box-shadow: 0 1rem 3rem rgba(77, 77, 77, 0.266);
+    overflow: hidden;
+}
+
+.contact-header {
+    background-color: #ffc107;
+    color: #212529;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.contact-label {
+    color: #ffc107; 
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.contact-input-disabled {
+    background-color: #6c757d !important;
+    color: #f8f9fa !important;
+    border: none;
+    cursor: not-allowed;
+}
+
+.contact-small-text {
+    color: #0dcaf0; 
+    display: block;
+    margin-top: 0.4rem;
+}
+
+.contact-textarea {
+   background-color: #6c757d;
+    color: #fff;
+    border: none;
+    box-shadow: 0 .125rem .25rem rgba(109, 108, 108, 0.093);
+    border-color: #ffc107;
+}
+
+.contact-textarea:focus {
+    background-color: #5c636a;
+    color: #fff;
+    border-color: #ffc107;
+    box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25);
+}
